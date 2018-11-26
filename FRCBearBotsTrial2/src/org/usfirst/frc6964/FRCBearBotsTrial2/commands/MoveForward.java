@@ -53,7 +53,7 @@ public class MoveForward extends Command {
     // Called repeatedly when this Command is scheduled to run
     @Override
     protected void execute() {
-    	dd.arcadeDrive(-0.75, 0);
+    	dd.arcadeDrive(-0.5, 0);
 
     }
 
